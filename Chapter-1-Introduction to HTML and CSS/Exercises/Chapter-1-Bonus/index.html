@@ -9,24 +9,25 @@
 <body> 
     <header>
         <h1><center>HTML and CSS Resource</center></h1>
-        <h4>
+        <h2>
             <center>
                 HTML & CSS quick-reference guide with a description of how to use them and code examples.
             </center>
-        </h4>
+        </h2>
     </header>
     <hr>
 
     <main>
-    <h4>What is HTML?</h4>
-    <p>
+    <h3>What is HTML?</h3>
+    <p style="font-size: large;">
         HTML (HyperText Markup Language) is the standard language used to create 
         and structure content on the web. It defines the elements of a web page,
         such as headings, paragraphs, links, images, and other media, using tags
         and attributes. HTML provides the skeleton of a webpage, which is then 
         styled with CSS (Cascading Style Sheets) and made interactive with JavaScript.
     </p>
-    <h4>Types of tags</h4>
+    <section>
+        <h3>Types of tags</h3>
         <ol>
             <li> Horizontal line</li>
             <p> The < hr > tag in HTML is used to create a horizontal rule or line. It’s often used to separate content or indicate a thematic break in the page </p>
@@ -81,58 +82,76 @@
             <pre> examlpe: <br> < footer > <br>  < p > Author: Abcd < /p > <br>   < p > 2025 My Website < /p > <br> < /footer > </pre>
 
         </ol>
-        
-    <h4> What is CSS?</h4>
-    <p>
+    </section>
+
+     
+    <h3> What is CSS?</h3>
+    <p style="font-size: large;">
         CSS (Cascading Style Sheets) is a style sheet language used to describe the 
         presentation and layout of a web page written in HTML or XML. While HTML 
         provides the structure of a webpage, CSS is responsible for how it looks. 
         It controls aspects like colors, fonts, spacing, positioning, and overall design.
     </p>
-    <h4>Types of rule</h4>
-    <ol>
-        <li>Color</li>
-        <p> The color property in CSS sets the color of the text content within an element. You can specify color values using color names (e.g., red), hex codes (e.g., #FF5733), RGB values (e.g., rgb(255, 0, 0)), or other color formats. This property affects only the text and does not affect the background or borders.</p>
-        <pre> example: <br> p { <br>     color: blue; <br> } </pre>
 
-        <li>Background color </li>
-        <p>The background-color property sets the background color of an element. This property is commonly used to make text or images stand out by applying a contrasting color behind the content. You can use any valid color value (e.g., color names, hex, RGB, or HSL). </p>
-        <pre> examlpe: <br> div { <br>       background-color: lightyellow; <br> } </pre>
-        <li>Font size</li>
-        <p> The font-size property defines the size of the font for the text inside an element. This property can be set in various units such as pixels (px), ems (em), rems (rem), percentages (%), or points (pt). A larger value results in larger text, while a smaller value results in smaller text. </p>
-        <pre> examlpe: <br> h2 { <br>      font-size: 28px; <br> } </pre>
+    <section>
+        <h3>Types of rule</h3>
+        <ol>
+            <li>Color</li>
+            <p> The color property in CSS sets the color of the text content within an element. You can specify color values using color names (e.g., red), hex codes (e.g., #FF5733), RGB values (e.g., rgb(255, 0, 0)), or other color formats. This property affects only the text and does not affect the background or borders.</p>
+            <pre> example: <br> p { <br>     color: blue; <br> } </pre>
+            
+            <li>Background color </li>
+            <p>The background-color property sets the background color of an element. This property is commonly used to make text or images stand out by applying a contrasting color behind the content. You can use any valid color value (e.g., color names, hex, RGB, or HSL). </p>
+            <pre> examlpe: <br> div { <br>       background-color: lightyellow; <br> } </pre>
+            
+            <li>Font size</li>
+            <p> The font-size property defines the size of the font for the text inside an element. This property can be set in various units such as pixels (px), ems (em), rems (rem), percentages (%), or points (pt). A larger value results in larger text, while a smaller value results in smaller text. </p>
+            <pre> examlpe: <br> h2 { <br>      font-size: 28px; <br> } </pre>
+            
+            <li>Margin</li>
+            <p>The margin property defines the space outside an element. It creates distance between the element and its neighboring elements. You can specify the margin for all sides at once (e.g., margin: 20px;) or set different margins for the top, right, bottom, and left sides individually.</p>
+            <pre> examlpe: <br> .box { <br>        margin: 20px; <br> } </pre>
+        
+            <li>Padding</li>
+            <p> The padding property defines the space inside an element, between its content and its border. Increasing the padding creates more space between the content and the element's edges. Like margin, padding can be set for all sides or individually for each side (top, right, bottom, left).</p>
+            <pre> example : <br>.content { <br>           padding: 15px; <br>  } </pre>
 
-        <li>Margin</li>
-        <p>The margin property defines the space outside an element. It creates distance between the element and its neighboring elements. You can specify the margin for all sides at once (e.g., margin: 20px;) or set different margins for the top, right, bottom, and left sides individually.</p>
-        <pre> examlpe: <br> .box { <br>        margin: 20px; <br> } </pre>
-        <li>Padding</li>
-        <p> The padding property defines the space inside an element, between its content and its border. Increasing the padding creates more space between the content and the element's edges. Like margin, padding can be set for all sides or individually for each side (top, right, bottom, left).</p>
-        <pre> example : <br>.content { <br>           padding: 15px; <br>  } </pre>
-
-        <li>Border</li>
-        <p> The border property is used to add a border around an element. You can define the border's width, style (e.g., solid, dashed), and color. The border property is shorthand for setting the individual border-width, border-style, and border-color. </p>
-        <pre>examlpe: <br>.box { <br>       border: 3px solid green; <br> }</pre>
-
-
-        <li>text-align</li>
-        <p>The text-align property is used to align text horizontally inside an element. You can align the text to the left, right, center, or justify it (spread across the width of the container). This property does not work with block elements unless they contain inline content like text.</p>
-        <pre>  example: <br> h1 { <br>      text-align: center; <br> } </pre>
-
-        <li>Font family</li>
-        <p> The font-family property specifies the typeface (or font) for the text content inside an element. It can take multiple font names, allowing you to specify fallback fonts in case the preferred font is unavailable. Fonts can be defined by their name, such as "Arial", "Times New Roman", or generic families like sans-serif and serif.</p>
-        <pre> exampple: <br>body { <br>       font-family: 'Arial', sans-serif; <br> } </pre>
-
-        <li>Font weight</li>
-        <p>The font-weight property defines the thickness or boldness of the text. It can be set to predefined values like normal, bold, or specific numeric values (e.g., 100 to 900, where 400 is normal and 700 is bold). </p>
-        <pre> examlpe: <br> p { <br>     font-weight: bold;<br> }</pre>
-
-        <li>Width and height</li>
-        <p>The width and height properties define the size of an element. These properties can be set in various units such as pixels (px), percentages (%), and other relative units. For example, setting width: 100% will make an element's width equal to the width of its parent container.</p>
-        <pre> examlpe: <br> img { <br>       width:100%;<br>       beight: auto; <br> } </pre>
+        
+            <li>Border</li>
+            <p> The border property is used to add a border around an element. You can define the border's width, style (e.g., solid, dashed), and color. The border property is shorthand for setting the individual border-width, border-style, and border-color. </p>
+            <pre>examlpe: <br>.box { <br>       border: 3px solid green; <br> }</pre>
 
 
+        
+            <li>text-align</li>
+            <p>The text-align property is used to align text horizontally inside an element. You can align the text to the left, right, center, or justify it (spread across the width of the container). This property does not work with block elements unless they contain inline content like text.</p>
+            <pre>  example: <br> h1 { <br>      text-align: center; <br> } </pre>
 
-    </ol>
+        
+            <li>Font family</li>
+            <p> The font-family property specifies the typeface (or font) for the text content inside an element. It can take multiple font names, allowing you to specify fallback fonts in case the preferred font is unavailable. Fonts can be defined by their name, such as "Arial", "Times New Roman", or generic families like sans-serif and serif.</p>
+            <pre> exampple: <br>body { <br>       font-family: 'Arial', sans-serif; <br> } </pre>
+
+        
+            <li>Font weight</li>
+            <p>The font-weight property defines the thickness or boldness of the text. It can be set to predefined values like normal, bold, or specific numeric values (e.g., 100 to 900, where 400 is normal and 700 is bold). </p>
+            <pre> examlpe: <br> p { <br>     font-weight: bold;<br> }</pre>
+
+        
+            <li>Width and height</li>
+            <p>The width and height properties define the size of an element. These properties can be set in various units such as pixels (px), percentages (%), and other relative units. For example, setting width: 100% will make an element's width equal to the width of its parent container.</p>
+            <pre> examlpe: <br> img { <br>       width:100%;<br>       beight: auto; <br> } </pre>
+
+
+
+        </ol>
+    </section>
+
+    <footer>
+        <hr>
+    </footer>
+
+
 </main>
 </body>
 </html>
