@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body> 
+    <header>
+        <h1><center>HTML and CSS Resource</center></h1>
+        <h4>
+            <center>
+                HTML & CSS quick-reference guide with a description of how to use them and code examples.
+            </center>
+        </h4>
+    </header>
+    <hr>
+
+    <main>
+    <h4>What is HTML?</h4>
+    <p>
+        HTML (HyperText Markup Language) is the standard language used to create 
+        and structure content on the web. It defines the elements of a web page,
+        such as headings, paragraphs, links, images, and other media, using tags
+        and attributes. HTML provides the skeleton of a webpage, which is then 
+        styled with CSS (Cascading Style Sheets) and made interactive with JavaScript.
+    </p>
+    <h4>Types of tags</h4>
+        <ol>
+            <li> Horizontal line</li>
+            <p> The < hr > tag in HTML is used to create a horizontal rule or line. It’s often used to separate content or indicate a thematic break in the page </p>
+            <code> example: <br> < hr > </code> 
+    
+            <li>Title </li>
+            <p> The < title > tag defines the title of the HTML document. This title is what appears in the browser tab and helps search engines understand the content of the page.</p>
+            <pre> example: <br> < head > <br>   < title > My Webpage < /title > <br> < /head > </pre>
+
+            <li>Headings</li>
+            <p>These are heading tags used to define headings on the page. < h1 > is the most important (largest) heading, and < h6 > is the least important (smallest). </p>
+            <pre>example: <br> < h1 > Main Heading < /h1 > <br> < h2 > Subheading < /h2 > <br> < h3 > Smaller Subheading< /h3 > </pre>
+
+            <li>paragraphs</li>
+            <p>The < p > tag is used to define paragraphs. It automatically adds some space before and after the paragraph to separate it from other content, making the text more readable.</p> 
+            <pre> examlpe: <br> < p > This is a paragraph of text. < /p ></pre>
+
+            <li>Hyperlink</li>
+            <p>The < a > tag is used to create hyperlinks. The href attribute specifies the URL or path to which the link points. Links can also open in new windows using the target="_blank" attribute.</p>
+            <pre> examlpe: <br> < a href="https://www.example.com"> Click here < /a ></pre>
+
+            <li>images</li>
+            <p>The < img > tag is used to embed images in a webpage. The src attribute defines the path to the image file, while the alt attribute provides alternative text if the image cannot be displayed. It's essential for accessibility.</p>
+            <pre> example: <br> < img src="image.jpg" alt="Description of image" ></pre>
+
+            <li>Unordered list </li>
+            <p>The < ul > tag is used to create an unordered list, meaning a list without numbers. It is typically used for lists that don't need to be in a specific order.</p>
+            <pre> example: <br> < ul > <br>   < li > Item 1 < /li > <br>   < li > Item 2 < /li > <br>   < li > Item 3 < /li > <br> < /ul > </pre>
+
+            <li> Ordered list </li>
+            <p> The < ol > tag defines an ordered list, which automatically numbers the list items. It is typically used when the sequence or order of the items is important. </p>
+            <pre> example: <br> < ol > <br>   < li > First item < /li > <br>   < li > Second item < /li > <br>   < li > third item < /li > <br> < /ol ></pre>
+
+            <li> List item </li> 
+            <p> The < li > tag defines a list item and must be placed inside either a < ul > or < ol > element. It is used to add items to ordered or unordered lists.</p>
+            <pre> examlpe: <br> < ul > <br>   < li > Item 1 < /li > <br>   < li > Item 2 < /li > <br> < /ul > </pre>
+
+            <li>Division</li>
+            <p> The < div > tag is a block-level element used to group content for styling purposes or to structure the layout of the page. It has no semantic meaning by itself and is often used with CSS to apply styles.</p>
+            <pre> example: <br> < div class="container"> <br>   < p >This is inside a div element.< /p > <br> < /div > </pre>
+
+            <li>Span</li>
+            <p>The < span > tag is an inline element used to group content for styling or manipulation purposes. Unlike < div >, it does not create a new block and is used within other inline elements.</p>
+            <pre> examlpe: <br> < p >This is a < span style="color:red;"> red text < /span > inside a paragraph.< /p > </pre>
+
+            <li>Header</li>
+            <p> The < header > tag is used to define the introductory content or the navigation section of a webpage. It typically contains elements like a logo, main heading, or navigation links.</p>
+            <pre> example: <br> < header > <br> < h1 > My Personal Blog < /h1 > <br> < p > Your daily dose of tech articles and tutorials < /p > <br> < /header > </pre>
+
+            <li> Footer </li>
+            <p> The < footer > element defines the footer of a document or section. It typically contains copyright information, contact details, or other important information related to the website or section. </p>
+            <pre> examlpe: <br> < footer > <br>  < p > Author: Abcd < /p > <br>   < p > 2025 My Website < /p > <br> < /footer > </pre>
+
+        </ol>
+        
+    <h4> What is CSS?</h4>
+    <p>
+        CSS (Cascading Style Sheets) is a style sheet language used to describe the 
+        presentation and layout of a web page written in HTML or XML. While HTML 
+        provides the structure of a webpage, CSS is responsible for how it looks. 
+        It controls aspects like colors, fonts, spacing, positioning, and overall design.
+    </p>
+    <h4>Types of rule</h4>
+    <ol>
+        <li>Color</li>
+        <p> The color property in CSS sets the color of the text content within an element. You can specify color values using color names (e.g., red), hex codes (e.g., #FF5733), RGB values (e.g., rgb(255, 0, 0)), or other color formats. This property affects only the text and does not affect the background or borders.</p>
+        <pre> example: <br> p { <br>     color: blue; <br> } </pre>
+
+        <li>Background color </li>
+        <p>The background-color property sets the background color of an element. This property is commonly used to make text or images stand out by applying a contrasting color behind the content. You can use any valid color value (e.g., color names, hex, RGB, or HSL). </p>
+        <pre> examlpe: <br> div { <br>       background-color: lightyellow; <br> } </pre>
+        <li>Font size</li>
+        <p> The font-size property defines the size of the font for the text inside an element. This property can be set in various units such as pixels (px), ems (em), rems (rem), percentages (%), or points (pt). A larger value results in larger text, while a smaller value results in smaller text. </p>
+        <pre> examlpe: <br> h2 { <br>      font-size: 28px; <br> } </pre>
+
+        <li>Margin</li>
+        <p>The margin property defines the space outside an element. It creates distance between the element and its neighboring elements. You can specify the margin for all sides at once (e.g., margin: 20px;) or set different margins for the top, right, bottom, and left sides individually.</p>
+        <pre> examlpe: <br> .box { <br>        margin: 20px; <br> } </pre>
+        <li>Padding</li>
+        <p> The padding property defines the space inside an element, between its content and its border. Increasing the padding creates more space between the content and the element's edges. Like margin, padding can be set for all sides or individually for each side (top, right, bottom, left).</p>
+        <pre> example : <br>.content { <br>           padding: 15px; <br>  } </pre>
+
+        <li>Border</li>
+        <p> The border property is used to add a border around an element. You can define the border's width, style (e.g., solid, dashed), and color. The border property is shorthand for setting the individual border-width, border-style, and border-color. </p>
+        <pre>examlpe: <br>.box { <br>       border: 3px solid green; <br> }</pre>
+
+
+        <li>text-align</li>
+        <p>The text-align property is used to align text horizontally inside an element. You can align the text to the left, right, center, or justify it (spread across the width of the container). This property does not work with block elements unless they contain inline content like text.</p>
+        <pre>  example: <br> h1 { <br>      text-align: center; <br> } </pre>
+
+        <li>Font family</li>
+        <p> The font-family property specifies the typeface (or font) for the text content inside an element. It can take multiple font names, allowing you to specify fallback fonts in case the preferred font is unavailable. Fonts can be defined by their name, such as "Arial", "Times New Roman", or generic families like sans-serif and serif.</p>
+        <pre> exampple: <br>body { <br>       font-family: 'Arial', sans-serif; <br> } </pre>
+
+        <li>Font weight</li>
+        <p>The font-weight property defines the thickness or boldness of the text. It can be set to predefined values like normal, bold, or specific numeric values (e.g., 100 to 900, where 400 is normal and 700 is bold). </p>
+        <pre> examlpe: <br> p { <br>     font-weight: bold;<br> }</pre>
+
+        <li>Width and height</li>
+        <p>The width and height properties define the size of an element. These properties can be set in various units such as pixels (px), percentages (%), and other relative units. For example, setting width: 100% will make an element's width equal to the width of its parent container.</p>
+        <pre> examlpe: <br> img { <br>       width:100%;<br>       beight: auto; <br> } </pre>
+
+
+
+    </ol>
+</main>
+</body>
+</html>

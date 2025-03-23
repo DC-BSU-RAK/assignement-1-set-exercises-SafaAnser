@@ -1,0 +1,21 @@
+body{
+    background-color: rgb(233, 228, 225);
+}
+
+h1{
+    color: rgb(62, 47, 36); 
+}
+
+h4{ 
+    color: rgb(78, 54, 26);
+}
+
+p{
+    margin: 10px
+}
+
+li{
+    margin-top: 20px;
+    font-weight: bold;
+}
+
