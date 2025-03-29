@@ -1,45 +1,45 @@
 body{
-    background-color: rgb(20, 11, 1);
+    background-color: rgb(20, 11, 1); /* Sets the background color of the page*/
 }
+
 .gradient{
-    font-size: 80px;
-    text-align: center;
-    font-weight: bold;
-    background: linear-gradient( #3f2f1e, #84613d);
-    background-clip: text; 
-    color: transparent; 
-    padding-top: 200px;
+    font-size: 80px; /* Sets the font size to 80px for the text with class "gradient" */
+    text-align: center; /* Centers the text horizontally */
+    font-weight: bold; /* Makes the text bold */
+    background: linear-gradient(#3f2f1e, #84613d); /* Applies a gradient background that transitions from dark brown to lighter brown */
+    background-clip: text; /* Clips the background so that the gradient only applies to the text */
+    color: transparent; /* Makes the text color transparent to allow the gradient to show through */
+    padding-top: 200px; /* Adds 200px of space above the text */
 }
 
 .navbar ul{
-    list-style-type: none;
-    background-color: #2f2216;
-    padding: 0px;
-    margin: 0px;
-    margin-left: 400px;
-    margin-right: 400px;
-    overflow: hidden;
-    display: flex; 
-    justify-content: center; 
-    align-items: center;
-    border-radius: 100px;
+    list-style-type: none; /* Removes the default bullets from the unordered list */
+    background-color: #2f2216; /* Sets the background color of the navbar */
+    padding: 0px; /* Removes the default padding from the list */
+    margin: 0px; /* Removes the default margin from the list */
+    margin-left: 400px; /* Adds 400px of space to the left side of the navbar */
+    margin-right: 400px; /* Adds 400px of space to the right side of the navbar */
+    overflow: hidden; /* Ensures the content inside the navbar doesn't overflow its container */
+    display: flex; /* Uses Flexbox to arrange the list items horizontally */
+    justify-content: center; /* Centers the list items horizontally */
+    align-items: center; /* Aligns the list items vertically */
+    border-radius: 100px; /* Rounds the corners of the navbar */
 }
 
 .navbar a{
-    color: #54473a;
-    text-decoration: none;
-    padding: 15px;
-    display: block;
-    text-align: center;
-    font-family: cursive;
-    font-size: 15px;
-   
+    color: #54473a; /* Sets the link text color */
+    text-decoration: none; /* Removes the underline from the links */
+    padding: 15px; /* Adds 15px of space around each link */
+    display: block; /* Makes each link a block-level element, so they fill their container */
+    text-align: center; /* Centers the text within each link */
+    font-family: cursive; /* Uses a cursive font for the link text */
+    font-size: 15px; /* Sets the font size to 15px */
 }
 
 .navbar a:hover{
-    background-color: #2a1c09;
+    background-color: #2a1c09; /* Changes the background color to dark brown when the link is hovered over */
 }
 
 .navbar li{
-    float: left;
+    float: left; /* Makes each list item (li) float to the left, so they appear in a horizontal row */
 }
