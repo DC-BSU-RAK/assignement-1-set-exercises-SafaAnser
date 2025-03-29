@@ -1,0 +1,45 @@
+body{
+    background-color: rgb(20, 11, 1);
+}
+.gradient{
+    font-size: 80px;
+    text-align: center;
+    font-weight: bold;
+    background: linear-gradient( #3f2f1e, #84613d);
+    background-clip: text; 
+    color: transparent; 
+    padding-top: 200px;
+}
+
+.navbar ul{
+    list-style-type: none;
+    background-color: #2f2216;
+    padding: 0px;
+    margin: 0px;
+    margin-left: 400px;
+    margin-right: 400px;
+    overflow: hidden;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    border-radius: 100px;
+}
+
+.navbar a{
+    color: #54473a;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+    font-family: cursive;
+    font-size: 15px;
+   
+}
+
+.navbar a:hover{
+    background-color: #2a1c09;
+}
+
+.navbar li{
+    float: left;
+}
