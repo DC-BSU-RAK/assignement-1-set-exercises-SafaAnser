@@ -1,0 +1,143 @@
+body{
+    background-color: #c0b8a7; /* Sets the background color of the whole page */
+}
+
+h1{
+    color: rgb(71, 59, 47); /* Text color for the main heading */
+    background-color: rgb(164, 153, 137); /* Background color of the heading */
+    text-align: center; /* Centers the text horizontally */
+    border-radius: 30px; /* Rounds the corners of the background */
+    font-family:'Times New Roman', Times, serif; /* Font style */
+    font-size: 60px; /* Size of the text */
+    margin-bottom: 5%; /* Adds space below the heading */
+}
+
+h5{
+    font-size: 15px; /* Smaller font size for subheadings */
+    text-align: center; /* Centers the text */
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; /* Font style */
+    margin-bottom: -10px; /* Pulls the element below it closer */
+    margin-top: 10px; /* Adds space above */
+}
+
+p{
+    text-align: center; /* Centers paragraph text */
+    font-size: small; /* Small font size */
+}
+
+a{
+    color: #000000; /* Sets link color to black */
+}
+
+.h3_1{
+    font-size: 25px; /* Size of the text */
+    text-align: center; /* Centers the heading */
+    color: rgb(31, 37, 59); /* Text color */
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ; /* Font style */
+    margin-bottom: -30px; /* Pulls the next element closer */
+    margin-top:100px ; /* Adds space above */
+    background-color: rgb(164, 153, 137); /* Background color */
+    border-radius: 30px; /* Rounds the corners */
+    margin:0px 100px; /* Sets left and right margins */
+}
+
+.h3_2{
+    font-size: 25px;
+    text-align: center;
+    color: rgb(87, 43, 13);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    margin-bottom: -30px;
+    margin-top:100px ;
+    background-color: rgb(164, 153, 137);
+    border-radius: 30px;
+    margin:0px 100px;
+}
+
+.h3_3{
+    font-size: 25px;
+    text-align: center;
+    color: rgb(27, 43, 35);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    margin-bottom: -30px;
+    margin-top:100px ;
+    background-color: rgb(164, 153, 137);
+    border-radius: 30px;
+    margin:0px 100px;
+}
+
+hr{
+    border: 0.2px solid black; /* Thin black line separator */
+}
+
+img {
+    width: 100%; /* Makes image stretch to full width of its container */
+    height: auto; /* Maintains image ratio */
+    margin: 0 auto; /* Centers image horizontally */
+    display: block; /* Removes inline spacing */
+}
+
+.imgfil_1{
+    filter:sepia(1); /* Applies sepia filter to the image */
+}
+
+.imgfil_2{
+    filter:saturate(0.5); /* Reduces color intensity */
+}
+
+.imgfil_3{
+    filter:blur(2px); /* Blurs the image */
+}
+
+#div1{
+    background-color: rgb(31, 37, 59); /* Sets background for first image section */
+    color: #837d71; /* Text color */
+    border-radius:15px ; /* Rounds the corners */
+    display: flex; /* Enables flex layout */
+    justify-content: center; /* Centers items horizontally */
+    align-items: center; /* Aligns items vertically */
+    text-align: center; /* Centers text inside */
+    margin: 40px auto; /* Adds vertical margin and centers horizontally */
+    padding-top: 15px; /*padding in top*/
+    padding-left: 15px; /*padding in left*/
+    padding-right: 15px;/*padding in right*/
+    gap: 10px; /* Space between flex items */
+    max-width: 1000px; /* Limits max width */
+}
+  
+#div2{
+    background-color: rgb(90, 62, 38); /* Sets background for first image section */
+    color: #ae8759; /* Text color */
+    border-radius:15px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 40px auto;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    gap: 10px;
+    max-width: 1000px;
+}
+
+#div3{
+    background-color: rgb(27, 43, 35); /* Sets background for first image section */
+    color: #a6a485; /* Text color */
+    border-radius:15px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 40px auto;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    gap: 10px;
+    max-width: 1000px;
+}
+
+footer{
+    margin-top: 20px; /* Space above the footer */
+    background-color: rgb(164, 153, 137); /* Background color */
+    text-align: center; /* Centers footer text */
+}
