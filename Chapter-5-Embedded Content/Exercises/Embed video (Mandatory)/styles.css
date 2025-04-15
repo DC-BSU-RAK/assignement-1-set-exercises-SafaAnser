@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    display: flex;               /* Make body a flex container */
+    justify-content: center;     /* Center content horizontally in the body */
+    align-items: center;         /* Center content vertically in the body */
+    height: 100vh;               /*Set the body height to 100% of the viewport height */
+    background-color: #70aecd;   /* Sets background color */
+}
+
+figure {
+    display: flex;               /* Make the figure a flex container */
+    flex-direction: column;     /* Arrange children (video and caption) vertically */
+    align-items: center;        /* Center items horizontally within the figure */
+    justify-content: center;    /* Center items vertically within the figure */
+}
+
+video {
+    width: 890px;                /* Set the width of the video */
+    height: 500px;               /* Set the height of the video */
+}
+
+figcaption {
+    font-family: cursive;        /*font for the caption text */
+}
