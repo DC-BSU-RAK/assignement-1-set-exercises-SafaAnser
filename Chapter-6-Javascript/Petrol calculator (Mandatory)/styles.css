@@ -23,7 +23,7 @@
         padding: 5px;
     }
 }
-
+ 
 .box{
     display: flex;
     background-color:rgba(88, 73, 73, 0.5);
@@ -48,7 +48,7 @@
         border-radius: 5px;
         border: 2px solid rgb(21, 20, 20);
     }
-    
+
 button:hover{
     background-color: rgb(95, 63, 63);
 }

@@ -4,39 +4,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Petrol Calculator</title> <!-- Sets the title of the webpage (shown on browser tab) --> 
-    <link rel="stylesheet" href="styles.css">
-    <script src="script.js"></script>
+    <title>Petrol Calculator</title> <!-- sets the title of the webpage--> 
+    <link rel="stylesheet" href="styles.css"> <!-- links to an external CSS file for styling -->
+    <script src="script.js"></script> <!-- links to an external JavaScript file for interactivity -->
+
 </head>
 
 <body>
-    <div class="container">
-        <h1>Petrol Calculator</h1>
-        <div class="box">
+    <div class="container">  <!-- main wrapper container for layout -->
+        <h1>Petrol Calculator</h1> <!-- heading for the application -->
+        <div class="box">  <!-- section for input fields -->
 
             <div>
-                <p>Petrol cost per litre </p>
-                <input id="petrol_cost" placeholder="1.72" type="number" min="1">
+                <p>Petrol cost per litre </p> <!-- label for petrol cost input -->
+                <input id="petrol_cost" placeholder="1.72" type="number" min="1"> <!-- input field for petrol cost with a default placeholder -->
             </div>
             <div>
-                <p>Litre</p>
-                <input id="liters" placeholder="0" type="number" min="1">
+                <p>Litre</p> <!-- label for liters input -->
+                <input id="liters" placeholder="0" type="number" min="1"> <!-- input field for number of liters -->
             </div>
 
         </div>
 
-        <!--Button to calculate the amount-->
+        <!-- section for buttons and result -->
         
         <div id="butn">
-            <button onclick="calculate()">Calculate</button> <button type="reset" >Reset</button>
-            <h2>Total Amount: <span id="totalAmount"></span></h2>
+
+            <button onclick="calculate()">Calculate</button> <button type="reset" >Reset</button> <!-- button to trigger the calculate() function in script.js and reset button to clear input values-->
+            <h2>Total Amount: <span id="totalAmount"></span></h2> <!-- display area for the total calculated amount -->
             
         </div>
-        
 
     </div>
-    <div>
-        
-    </div>
 </body>
-</html>
+</html> 

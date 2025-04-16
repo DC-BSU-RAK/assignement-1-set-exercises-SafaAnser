@@ -23,4 +23,4 @@ function reset() {
     document.querySelector('#petrol_cost').value = '';
     document.querySelector('#liters').value = '';
     document.querySelector('#totalAmount').innerText = '';
-}
+} 
