@@ -1,70 +1,70 @@
-header{ /* Styles for the header section */
+header{ /* styles for the header section */
     background-color: #17072b; /*background color */
-    color:white; /* White text color */
-    text-align: center; /* Center-aligns text */
-    font-family:Verdana, Geneva, Tahoma, sans-serif; /* Sets the font family */
-    padding-bottom:5px ; /* Adds 5px padding at the bottom */
-    padding-top: 15px; /* Adds 15px padding at the top */
+    color:white; /* white text color */
+    text-align: center; /*center-aligns text */
+    font-family:Verdana, Geneva, Tahoma, sans-serif; /* sets the font family */
+    padding-bottom:5px ; /* adds 5px padding at the bottom */
+    padding-top: 15px; /* aadds 15px padding at the top */
 }
 
-.navbar ul{ /* Styles for the unordered list inside the navbar */
-    display: flex; /* Uses flexbox for layout */
-    list-style-type: none; /* Removes bullet points */
-    justify-content: center; /* Centers the list items horizontally */
-    gap: 30px; /* Adds 30px space between list items */
-    text-align: center; /* Aligns text to the center */
-    font-size: 25px; /* Sets font size to 25px */
+.navbar ul{ /* styles for the unordered list inside the navbar */
+    display: flex; /* uses flexbox for layout */
+    list-style-type: none; /* removes bullet points */
+    justify-content: center; /* centers the list items horizontally */
+    gap: 30px; /* adds 30px space between list items */
+    text-align: center; /* aligns text to the center */
+    font-size: 25px; /* sets font size to 25px */
 }
 
-main{ /* Styles for the main content area */
-    margin: 5px; /* Adds 5px margin on all sides */
-    font-family: Verdana, Geneva, Tahoma, sans-serif; /* Sets the font family */
-    flex: 1; /* Allows main to grow and fill available space in flex container */
-    padding: 10px; /* Adds 10px padding inside the main element */
+main{ /* styles for the main content area */
+    margin: 5px; /* adds 5px margin on all sides */
+    font-family: Verdana, Geneva, Tahoma, sans-serif; /* sets the font family */
+    flex: 1; /* allows main to grow and fill available space in flex container */
+    padding: 10px; /* adds 10px padding inside the main element */
 }
 
-.container { /* Styles for the container div that wraps main and aside */
-    display: flex; /* Uses flexbox layout */
-    max-width: 1800px; /* Sets the maximum width to 1800px */
-    margin: auto; /* Centers the container horizontally */
+.container { /* styles for the container div that wraps main and aside */
+    display: flex; /* uses flexbox layout */
+    max-width: 1800px; /* sets the maximum width to 1800px */
+    margin: auto; /* centers the container horizontally */
 }
 
-aside { /* Styles for the aside/sidebar section */
-    width: 450px; /* Sets fixed width to 450px */
-    height: 520px; /* Sets fixed height to 520px */
-    min-width: 450px; /* Ensures the width doesn’t shrink below 450px */
-    padding-left: 10px; /* Adds 10px padding to the left */
-    margin-left: 16px; /* Adds 16px margin to the left */
-    background-color: #172d67; /* Sets background color */
-    margin-top: 10px; /* Adds 10px top margin */
-    color: #ffffff; /* Sets text color */
-    font-family: Verdana, Geneva, Tahoma, sans-serif; /* Sets font family */
-    text-align: left; /* Aligns text to the left */
+aside { /* styles for the aside/sidebar section */
+    width: 450px; /* sets fixed width to 450px */
+    height: 520px; /* sets fixed height to 520px */
+    min-width: 450px; /* ensures the width doesn’t shrink below 450px */
+    padding-left: 10px; /* adds 10px padding to the left */
+    margin-left: 16px; /* adds 16px margin to the left */
+    background-color: #172d67; /* sets background color */
+    margin-top: 10px; /* adds 10px top margin */
+    color: #ffffff; /* sets text color */
+    font-family: Verdana, Geneva, Tahoma, sans-serif; /* sets font family */
+    text-align: left; /* aligns text to the left */
 }
 
-aside ul{ /* Styles for unordered list inside aside */
-    list-style-type:"-"; /* Uses a dash as the list item marker */
-    font-size: larger; /* Makes the font size larger than normal */
+aside ul{ /* styles for unordered list inside aside */
+    list-style-type:"-"; /*uses a dash as the list item marker */
+    font-size: larger; /* makes the font size larger than normal */
 }
 
-.img{ /* Styles for images with the class 'img' */
-    padding-top: 50px; /* Adds 50px padding to the top */
-    text-align: center; /* Centers the image text-wise (not visually effective on img) */
-    width: 215px; /* Sets image width to 215px */
-    height: 230px; /* Sets image height to 230px */
+.img{ /* styles for images with the class 'img' */
+    padding-top: 50px; /* adds 50px padding to the top */
+    text-align: center; /* centers the image text-wise (not visually effective on img) */
+    width: 215px; /* sets image width to 215px */
+    height: 230px; /* sets image height to 230px */
 }
 
-img{ /* Styles for all <img> elements */
-    width:1000px; /* Sets image width to 1000px */
-    height: 330px; /* Sets image height to 330px */
-    text-align: right; /* Aligns image text-wise to the right (not visually effective on img) */
+img{ /* styles for all <img> elements */
+    width:1000px; /* sets image width to 1000px */
+    height: 330px; /* sets image height to 330px */
+    text-align: right; /* aligns image text-wise to the right (not visually effective on img) */
 }
 
-footer{ /* Styles for the footer section */
-    text-align: center; /* Centers the footer text */
-    background-color: #8c15e9; /* Sets footer background color */
-    color: #ffffff; /* Sets footer text color*/
-    font-family: Arial, Helvetica, sans-serif; /* Sets footer font family */
-    margin-top: -25px; /* Moves the footer 25px upward */
-    margin-bottom: -20px; /* Moves the bottom of the footer 20px upward */
+footer{ /* styles for the footer section */
+    text-align: center; /* centers the footer text */
+    background-color: #8c15e9; /* sets footer background color */
+    color: #ffffff; /* sets footer text color*/
+    font-family: Arial, Helvetica, sans-serif; /* sets footer font family */
+    margin-top: -25px; /* moves the footer 25px upward */
+    margin-bottom: -20px; /*moves the bottom of the footer 20px upward */
 }
