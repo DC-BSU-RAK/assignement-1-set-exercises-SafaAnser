@@ -1,102 +1,102 @@
 
-/* The body tag styles the background color of the entire webpage */
+/* the body tag styles the background color of the entire webpage */
 body{
-    background-color: #c8baaa; /* Sets the background color*/
+    background-color: #c8baaa; /* sets the background color*/
 }
 
-/* The h1 tag styles the main heading (e.g., the title of the page) */
+/* the h1 tag styles the main heading (e.g., the title of the page) */
 h1 {
-    font-family:'Brush Script MT', cursive; /* Uses a cursive font for the heading */
-    text-align: center; /* Centers the text horizontally */
-    color: #643402; /* Sets the color of the text */
-    font-size:70px; /* Makes the font size large */
+    font-family:'Brush Script MT', cursive; /* uses a cursive font for the heading */
+    text-align: center; /* centers the text horizontally */
+    color: #643402; /* sets the color of the text */
+    font-size:70px; /* makes the font size large */
 }
 
 
-/* The h2 tag styles the subheadings (e.g., section titles) */
+/* the h2 tag styles the subheadings (e.g., section titles) */
 h2{ 
-    font-family: cursive; /* Uses a cursive font for the subheading */
+    font-family: cursive; /* sses a cursive font for the subheading */
 }
 
 
-/* The .margin class adds left margin to elements */ 
+/* the .margin class adds left margin to elements */ 
 .margin{
-    margin-left: 10px; /* Adds a 10px left margin to the element */
+    margin-left: 10px; /* adds a 10px left margin to the element */
 }
 
 
-/* The .fs class is used to style text inside navigation or other sections */
+/* the .fs class is used to style text inside navigation or other sections */
 .fs{
-    font-size: 18px; /* Sets the font size to 18px */
-    text-align: center; /* Centers the text horizontally */
+    font-size: 18px; /* sets the font size to 18px */
+    text-align: center; /* centers the text horizontally */
 }
 
 
-/* The .navbar ul styles the unordered list for the navigation bar */
+/* the .navbar ul styles the unordered list for the navigation bar */
 .navbar ul{
-    list-style-type: none; /* Removes the default list bullets */
-    background-color: #463118; /* Sets the background color of the navbar */
-    padding: 0px; /* Removes padding */
-    margin: 0px; /* Removes margin */
-    overflow: hidden; /* Prevents the list items from spilling outside the navbar */
+    list-style-type: none; /* removes the default list bullets */
+    background-color: #463118; /* sets the background color of the navbar */
+    padding: 0px; /* removes padding */
+    margin: 0px; /* removes margin */
+    overflow: hidden; /* prevents the list items from spilling outside the navbar */
 }
 
-/* The .navbar a styles the links inside the navbar */
+/* the .navbar a styles the links inside the navbar */
 .navbar a{
-    color: #a19b93; /* Sets the text color */
-    text-decoration: none; /* Removes the underline from the links */
-    padding: 15px; /* Adds padding around the text in the links */
-    display: block; /* Makes each link a block element (so they stack vertically) */
-    text-align: center; /* Centers the text inside the link */
-    font-family: cursive; /* Uses a cursive font for the link text */
+    color: #a19b93; /* sets the text color */
+    text-decoration: none; /* removes the underline from the links */
+    padding: 15px; /* adds padding around the text in the links */
+    display: block; /* makes each link a block element (so they stack vertically) */
+    text-align: center; /* centers the text inside the link */
+    font-family: cursive; /* uses a cursive font for the link text */
 }
 
-/* The .navbar a:hover defines the style of the links when hovered over */
+/* the .navbar a:hover defines the style of the links when hovered over */
 .navbar a:hover{
-    background-color: #38260f; /* Changes the background color of the link when hovered*/
+    background-color: #38260f; /* changes the background color of the link when hovered*/
 }
 
 
-/* The .navbar li styles the list items inside the navbar */
+/* the .navbar li styles the list items inside the navbar */
 .navbar li{
-    float: left; /* Aligns the list items horizontally by floating them to the left */
+    float: left; /* aligns the list items horizontally by floating them to the left */
 }
 
 
 
-/* The html tag ensures smooth scrolling behavior */
+/* the html tag ensures smooth scrolling behavior */
 html {
-    scroll-behavior: smooth; /* Makes the page scroll smoothly when navigating through anchor links */
+    scroll-behavior: smooth; /* makes the page scroll smoothly when navigating through anchor links */
 }
 
-/* The p tag styles the paragraphs */
+/* the p tag styles the paragraphs */
 p{
-    font-size: larger; /* Increases the font size for paragraphs */
-    margin:20px; /* Adds a 20px margin around paragraphs */
-    font-family: cursive; /* Uses a cursive font for the text in paragraphs */
+    font-size: larger; /* increases the font size for paragraphs */
+    margin:20px; /* adds a 20px margin around paragraphs */
+    font-family: cursive; /* uses a cursive font for the text in paragraphs */
 }
 
-/* The ol tag styles the ordered (numbered) list */
+/* the ol tag styles the ordered (numbered) list */
 ol{
-    font-size: larger; /* Increases the font size for ordered lists */
-    margin:20px; /* Adds a 20px margin around the list */
-    font-family: cursive; /* Uses a cursive font for the text in the ordered list */
+    font-size: larger; /* increases the font size for ordered lists */
+    margin:20px; /* adds a 20px margin around the list */
+    font-family: cursive; /* uses a cursive font for the text in the ordered list */
 }
 
 
-/* The footer tag styles the footer section of the webpage */
+/* the footer tag styles the footer section of the webpage */
 footer{
-    background-color: #463118; /* Sets the background color of the footer to a dark brown */
-    color: #a19b93; /* Sets the text color to light beige */
-    font-size: x-small; /* Makes the font size smaller for footer text */
+    background-color: #463118; /* sets the background color of the footer to a dark brown */
+    color: #a19b93; /* sets the text color to light beige */
+    font-size: x-small; /* makes the font size smaller for footer text */
 }
 
-/* The .button class styles the button element */
+/* the .button class styles the button element */
 .button{
-    background-color: #a19b93; /* Sets the background color of the button */
-    color: #3f290b; /* Sets the text color of the button */
-    border-radius: 70px; /* Rounds the corners of the button */
-    font-size: 15px; /* Sets the font size of the button text */
-    padding: 5px; /* Adds padding inside the button */
-    margin:20px; /* Adds a 20px margin around the button */
+    background-color: #a19b93; /* sets the background color of the button */
+    color: #3f290b; /*sets the text color of the button */
+    border-radius: 70px; /* rounds the corners of the button */
+    font-size: 15px; /* sets the font size of the button text */
+    padding: 5px; /* adds padding inside the button */
+    margin:20px; /* adds a 20px margin around the button */
 }
