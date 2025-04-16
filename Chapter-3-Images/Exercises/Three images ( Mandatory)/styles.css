@@ -1,44 +1,44 @@
 body{
-    background-color: #c0b8a7; /* Sets the background color of the whole page */
+    background-color: #c0b8a7; /* sets the background color of the whole page */
 }
 
 h1{
-    color: rgb(71, 59, 47); /* Text color for the main heading */
-    background-color: rgb(164, 153, 137); /* Background color of the heading */
-    text-align: center; /* Centers the text horizontally */
-    border-radius: 30px; /* Rounds the corners of the background */
-    font-family:'Times New Roman', Times, serif; /* Font style */
-    font-size: 60px; /* Size of the text */
-    margin-bottom: 5%; /* Adds space below the heading */
+    color: rgb(71, 59, 47); /* text color for the main heading */
+    background-color: rgb(164, 153, 137); /* background color of the heading */
+    text-align: center; /* centers the text horizontally */
+    border-radius: 30px; /* rounds the corners of the background */
+    font-family:'Times New Roman', Times, serif; /* font style */
+    font-size: 60px; /* size of the text */
+    margin-bottom: 5%; /* adds space below the heading */
 }
 
 h5{
-    font-size: 15px; /* Smaller font size for subheadings */
-    text-align: center; /* Centers the text */
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; /* Font style */
-    margin-bottom: -10px; /* Pulls the element below it closer */
-    margin-top: 10px; /* Adds space above */
+    font-size: 15px; /* smaller font size for subheadings */
+    text-align: center; /* centers the text */
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; /* font style */
+    margin-bottom: -10px; /* pulls the element below it closer */
+    margin-top: 10px; /* adds space above */
 }
 
 p{
-    text-align: center; /* Centers paragraph text */
-    font-size: small; /* Small font size */
+    text-align: center; /* centers paragraph text */
+    font-size: small; /* small font size */
 }
 
 a{
-    color: #000000; /* Sets link color to black */
+    color: #000000; /* sets link color to black */
 }
 
 .h3_1{
-    font-size: 25px; /* Size of the text */
-    text-align: center; /* Centers the heading */
-    color: rgb(31, 37, 59); /* Text color */
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ; /* Font style */
-    margin-bottom: -30px; /* Pulls the next element closer */
-    margin-top:100px ; /* Adds space above */
-    background-color: rgb(164, 153, 137); /* Background color */
-    border-radius: 30px; /* Rounds the corners */
-    margin:0px 100px; /* Sets left and right margins */
+    font-size: 25px; /* size of the text */
+    text-align: center; /* centers the heading */
+    color: rgb(31, 37, 59); /* text color */
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ; /* font style */
+    margin-bottom: -30px; /* pulls the next element closer */
+    margin-top:100px ; /* adds space above */
+    background-color: rgb(164, 153, 137); /* background color */
+    border-radius: 30px; /* rounds the corners */
+    margin:0px 100px; /* sets left and right margins */
 }
 
 .h3_2{
@@ -66,47 +66,47 @@ a{
 }
 
 hr{
-    border: 0.2px solid black; /* Thin black line separator */
+    border: 0.2px solid black; /* thin black line separator */
 }
 
 img {
-    width: 100%; /* Makes image stretch to full width of its container */
-    height: auto; /* Maintains image ratio */
-    margin: 0 auto; /* Centers image horizontally */
-    display: block; /* Removes inline spacing */
+    width: 100%; /* makes image stretch to full width of its container */
+    height: auto; /* maintains image ratio */
+    margin: 0 auto; /* centers image horizontally */
+    display: block; /* removes inline spacing */
 }
 
 .imgfil_1{
-    filter:sepia(1); /* Applies sepia filter to the image */
+    filter:sepia(1); /* applies sepia filter to the image */
 }
 
 .imgfil_2{
-    filter:saturate(0.5); /* Reduces color intensity */
+    filter:saturate(0.5); /* reduces color intensity */
 }
 
 .imgfil_3{
-    filter:blur(2px); /* Blurs the image */
+    filter:blur(2px); /* blurs the image */
 }
 
 #div1{
-    background-color: rgb(31, 37, 59); /* Sets background for first image section */
-    color: #837d71; /* Text color */
-    border-radius:15px ; /* Rounds the corners */
-    display: flex; /* Enables flex layout */
-    justify-content: center; /* Centers items horizontally */
-    align-items: center; /* Aligns items vertically */
-    text-align: center; /* Centers text inside */
-    margin: 40px auto; /* Adds vertical margin and centers horizontally */
+    background-color: rgb(31, 37, 59); /*sets background for first image section */
+    color: #837d71; /* text color */
+    border-radius:15px ; /* rounds the corners */
+    display: flex; /* enables flex layout */
+    justify-content: center; /* centers items horizontally */
+    align-items: center; /* aligns items vertically */
+    text-align: center; /* centers text inside */
+    margin: 40px auto; /* adds vertical margin and centers horizontally */
     padding-top: 15px; /*padding in top*/
     padding-left: 15px; /*padding in left*/
     padding-right: 15px;/*padding in right*/
-    gap: 10px; /* Space between flex items */
-    max-width: 1000px; /* Limits max width */
+    gap: 10px; /* space between flex items */
+    max-width: 1000px; /* limits max width */
 }
   
 #div2{
-    background-color: rgb(90, 62, 38); /* Sets background for first image section */
-    color: #ae8759; /* Text color */
+    background-color: rgb(90, 62, 38); /* sets background for first image section */
+    color: #ae8759; /* text color */
     border-radius:15px ;
     display: flex;
     justify-content: center;
@@ -121,8 +121,8 @@ img {
 }
 
 #div3{
-    background-color: rgb(27, 43, 35); /* Sets background for first image section */
-    color: #a6a485; /* Text color */
+    background-color: rgb(27, 43, 35); /* sets background for first image section */
+    color: #a6a485; /* text color */
     border-radius:15px ;
     display: flex;
     justify-content: center;
@@ -137,7 +137,7 @@ img {
 }
 
 footer{
-    margin-top: 20px; /* Space above the footer */
-    background-color: rgb(164, 153, 137); /* Background color */
-    text-align: center; /* Centers footer text */
+    margin-top: 20px; /* space above the footer */
+    background-color: rgb(164, 153, 137); /* background color */
+    text-align: center; /* centers footer text */
 }
