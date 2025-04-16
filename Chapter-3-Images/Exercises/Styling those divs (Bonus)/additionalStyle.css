@@ -1,37 +1,37 @@
 .area{
-    display:flex; /* Use flexbox to arrange child elements in a row */
-    justify-content: space-around; /* Distribute space evenly between the boxes */
-    align-items:center; /* Vertically center the boxes */
-    margin-top: 30px; /* Add space above the container */
+    display:flex; /* use flexbox to arrange child elements in a row */
+    justify-content: space-around; /* distribute space evenly between the boxes */
+    align-items:center; /* vertically center the boxes */
+    margin-top: 30px; /* add space above the container */
 }
 
 .box{
-    display: flex; /* Make each box a flex container */
-    height: 120px; /* Set box height */
-    width: 150px; /* Set box width */
-    justify-content: center; /* Center content horizontally inside the box */
-    align-items: flex-start; /* Align content to the top of the box */
-    padding-top: 30px; /* Add space inside the top of the box */
-    font-family: Arial, Helvetica, sans-serif; /* Set font style for text */
+    display: flex; /* make each box a flex container */
+    height: 120px; /* set box height */
+    width: 150px; /* set box width */
+    justify-content: center; /* center content horizontally inside the box */
+    align-items: flex-start; /* align content to the top of the box */
+    padding-top: 30px; /* add space inside the top of the box */
+    font-family: Arial, Helvetica, sans-serif; /* set font style for text */
 }
 
 #a{
-    border: 4px solid purple; /* Purple border around the box */
-    box-shadow: 7px 7px 10px red; /* Add red shadow to the outside, offset to bottom-right */
+    border: 4px solid purple; /* purple border around the box */
+    box-shadow: 7px 7px 10px red; /* add red shadow to the outside, offset to bottom-right */
 }
 
 #b{
-    border: 4px solid rgb(100, 244, 81); /* Green border using RGB color */
-    box-shadow: inset 10px 10px 10px rgb(0, 0, 0); /* Add inner black shadow (inset) */
+    border: 4px solid rgb(100, 244, 81); /* green border using RGB color */
+    box-shadow: inset 10px 10px 10px rgb(0, 0, 0); /* add inner black shadow (inset) */
 }
 
 #c{
-    border: 4px solid orange; /* Orange border around the box */
-    box-shadow: 0 0 0 6px blue, 0 0 0 12px red, 0 0 0 18px green; /* Multiple colorful outline layers */
-    border-radius: 10px; /* Round the corners of the box */
+    border: 4px solid orange; /* orange border around the box */
+    box-shadow: 0 0 0 6px blue, 0 0 0 12px red, 0 0 0 18px green; /* multiple colorful outline layers */
+    border-radius: 10px; /* round the corners of the box */
 }
 
 #d{
-    border: 4px solid rgb(177, 21, 21); /* Dark red border */
-    text-shadow: 4px 4px 1px black; /* Add black shadow to the text */
+    border: 4px solid rgb(177, 21, 21); /* dark red border */
+    text-shadow: 4px 4px 1px black; /* add black shadow to the text */
 }
