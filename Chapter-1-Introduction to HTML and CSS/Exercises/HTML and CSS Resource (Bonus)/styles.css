@@ -1,37 +1,37 @@
 
-/* Sets the background color for the entire webpage */
+/* sets the background color for the entire webpage */
 body{
     background-color: rgb(233, 228, 225);
 }
 
-/* Styles for <h1> and <h2> headings */
+/* styles for <h1> and <h2> headings */
 h1,h2{
     color: rgb(62, 47, 36); /* text color */
 }
 
 
-/* Styles for <h3> headings */
+/* styles for <h3> headings */
 h3{ 
     color: rgb(180, 160, 146); /*text color */
-    background-color: rgb(78, 54, 26) ; /* Dark background color for contrast */
+    background-color: rgb(78, 54, 26) ; /* dark background color for contrast */
 }
 
 
-/* Styles for paragraphs */
+/* styles for paragraphs */
 p{
-    margin: 10px /* Adds spacing around paragraphs */
+    margin: 10px /* adds spacing around paragraphs */
 }
 
 
 
-/* Styles for list items */
+/* styles for list items */
 li{
-    margin-top: 20px; /* Adds spacing above list items */
-    font-weight: bold; /* Makes list items bold */
+    margin-top: 20px; /* adds spacing above list items */
+    font-weight: bold; /* makes list items bold */
 }
 
-/* Styles for section elements */
+/* styles for section elements */
 section{
-    margin:50px ; /* Adds space around sections */
+    margin:50px ; /* adds space around sections */
 }
 
