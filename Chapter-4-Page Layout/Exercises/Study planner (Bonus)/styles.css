@@ -1,0 +1,114 @@
+header{ /* styles for the header section */
+    text-align: center; /* centers the text */
+    background-color:rgb(155, 139, 123);  /* sets a background color */
+    padding-top: 20px; /* adds top padding */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; /* sets font family */
+}
+
+h1{ /* styles for all h1 elements */
+    font-size: 50px; /* sets font size */
+    margin:10px; /* adds margin */
+}
+
+.dsc{ /* styles for the .dsc class */
+    font-family: cursive; /* sets cursive font */
+    margin: 0; /* removes margin */
+    padding: 15px; /* adds padding */
+    font-size: 20px; /* sets font size */
+    width: 1500px; /* sets width */
+    text-align: left; /* aligns text to the left */
+    h1{ /* nested h1 style inside .dsc */
+        font-family: 'Courier New', Courier, monospace; /* sets monospace font */
+        font-size:30px ; /* sets font size */
+    }
+}
+
+.crs{ /* styles for the .crs class */
+    background-color: rgb(207, 191, 166); /* sets background color */
+    width: 1500px; /* sets width */
+    margin-bottom: 5px; /* adds bottom margin */
+    h2{ /* nested h2 style inside .crs */
+        font-size: 30px; /* sets font size */
+        text-align: center; /* centers the text */
+        padding-top: 20px; /* adds top padding */
+        margin: 0; /* removes margin */
+        font-family: 'Courier New', Courier, monospace; /* sets font family */
+    }
+}
+
+main{ /* styles for the main element */
+    background-color:rgb(246, 239, 225); /* sets background color */
+}
+
+.navbar ul{ /* styles for the unordered list inside the navbar */
+    display: flex; /* uses flexbox for layout */
+    list-style-type: none; /* removes bullet points */
+    justify-content: center; /* centers the list items horizontally */
+    gap: 30px; /* adds 30px space between list items */
+    text-align: center; /* aligns text to the center */
+    font-size: 25px; /* sets font size to 25px */
+    padding-bottom: 20px; /* adds padding at the bottom */
+    font-family: 'Courier New', Courier, monospace; /* sets font family */
+    font-weight: bolder; /* makes font bold */
+    margin: 0; /* removes margin */
+}
+
+aside{ /* styles for the aside element */
+    float: right; /* floats aside to the right */
+    width: 490px;  /* sets width */
+    margin-top: 15px; /* adds top margin */
+    padding-left: 10px; /* adds left padding */
+    font-size: 18.8px; /* sets font size */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; /* sets font family */
+    background-color: #bbb2a7; /* sets background color */
+    a{ /* nested link style inside aside */
+        color: rgb(119, 95, 51); /* sets link color */
+    }
+    hr{ /* nested hr style inside aside */
+        height: 2px; /* sets height */
+        background-color: #000000;  /* sets background color */
+        border: none; /* removes border */
+    }
+}
+
+article{ /* styles for each article element */
+    display: inline-block; /* displays inline-block */
+    contain:content; /* sets containment context */
+    font-family: sans-serif; /* sets font family */
+    font-size: 20px; /* sets font size */
+    margin: 20px; /* adds margin */
+    border: 4px solid black; /* sets border style */
+    line-height: 1.5; /* sets line height */
+    width: 450px; /* sets width */
+    height: 199px;  /* sets height */
+    background-color: rgb(132, 127, 115);  /* sets background color */
+    justify-content: center;  /* centers content horizontally */
+    text-align: center; /* centers text */
+    h3{ /* nested h3 style inside article */
+        font-size: 25px; /* sets font size */
+        margin-top: 0; /* removes top margin */
+        background-color: rgb(226, 214, 189); /* sets background color */
+        font-family: 'Courier New', Courier, monospace; /* sets font family */
+    }
+    p{ /* nested paragraph style inside article */
+        line-height:normal; /* sets normal line height */
+        font-family: cursive; /* sets font to cursive */
+    }
+}
+
+button { /* styles for all button elements */
+    border-radius: 20px; /* rounds the corners */
+    border: none;  /* removes border */
+    font-size: 16px;  /* sets font size */
+    background-color: #4b4138;  /* sets background color */
+    color: rgb(208, 208, 207); /* sets text color */
+    padding: 10px; /* adds padding */
+    margin-top:10px; /* adds top margin */
+    cursor: pointer;  /* shows pointer cursor on hover */
+}
+
+footer{ /* styles for the footer section */
+    background-color:rgb(155, 139, 123); ; /* sets background color */
+    padding: 5px; /* adds padding */
+    text-align: center; /* centers the text */
+}
