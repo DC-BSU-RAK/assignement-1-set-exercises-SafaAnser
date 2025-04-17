@@ -3,8 +3,24 @@ body {
     display: flex;               /* make body a flex container */
     justify-content: center;     /* center content horizontally in the body */
     align-items: center;         /* center content vertically in the body */
-    height: 100vh;               /*set the body height to 100% of the viewport height */
+    min-height: 100vh;               /*set the body height to 100% of the viewport height */
     background-color: #70aecd;   /* sets background color */
+    flex-direction: column; 
+}
+
+header {
+    width: 50%; /*the width of header sets to 50%*/
+    text-align: center; /*aligning text to center of the page*/
+    padding: 20px; /*padding to have space before video*/
+    background-color: #4b8ca5; /*background color for the header*/
+    margin-bottom: 10px; /*bottom margin for header*/
+    font-family: cursive; /* sets font style*/
+    font-size: small; /* sets font size*/
+}
+
+h2 {
+    margin: 0; /*margin for heading*/
+    color: white; /*sets text color */
 }
 
 figure {
