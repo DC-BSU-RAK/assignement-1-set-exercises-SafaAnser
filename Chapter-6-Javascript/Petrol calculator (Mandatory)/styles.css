@@ -1,64 +1,85 @@
- body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 90vh;
-    background-color: #3d2727;
+/* Style the entire page */
+body {
+    display: flex; /* use Flexbox to arrange children */
+    justify-content: center; /* center children horizontally */
+    align-items: center; /*center children vertically */
+    height: 90vh; /* set body height to 90% of the viewport height */
+    background-color: #3d2727; /*set background color */
 }
 
+/*container that wraps the content */
 .container {
-    width: 600px;
-    height: 450px;
-    background-color: #887c73;
-    color: #280404;
-    border-radius: 10px;
-    margin-top: 20px;
-    padding: 25px;
-    h1{
-        background-color: rgba(58, 49, 49, 0.7);
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        border-radius: 5px;
-        padding: 5px;
-        font-size: 50px;
-        
+    width: 600px; /* fixed width for the container */
+    height: 450px; /* fixed height for the container */
+    background-color: #887c73; /* kight brown background color */
+    color: #280404; /* sets text color */
+    border-radius: 10px; /*rounded corners */
+    margin-top: 20px; /* space above the container */
+    padding: 25px; /* inner spacing on all sides */
+
+    /* header inside the container */
+    h1 {
+        background-color: rgba(58, 49, 49, 0.7); /* semi-transparent dark background */
+        display: flex; /* use Flexbox to align text */
+        align-items: center; /* vertically center text */
+        justify-content: center; /* horizontally center text */
+        border-radius: 5px; /* rounded corners for header */
+        padding: 5px; /* inner spacing for the header */
+        font-size: 50px; /* large font size for the heading */
     }
 }
- 
-.box{
-    display: flex;
-    background-color:rgba(88, 73, 73, 0.5);
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    font-size: 30px;
-    border-radius: 10px;
-    padding-bottom: 50px;
-    gap: 20px;
-    input{
-        width: 200px;
-        height: 25px;
-        font-size: 18px;
-        background-color: #bbb7b7;
-    }
-    p{
-        margin-bottom: 10px;
-    }
-}
-#butn{
-    margin-top: 50px;
-    text-align: center;
-    font-size: 20px;
-    button{
-        color: rgb(173, 161, 161);
-        font-size: 20px;
-        background-color: rgb(49, 46, 44);
-        border-radius: 5px;
-        border: 2px solid rgb(21, 20, 20);
+
+/* box that holds input and label */
+.box {
+    display: flex; /* arrange children in a row */
+    background-color: rgba(88, 73, 73, 0.5); /* semi-transparent background */
+    text-align: center; /* center-align text */
+    align-items: center; /* center content vertically */
+    justify-content: center; /* center content horizontally */
+    font-size: 30px; /* large font size for readability */
+    border-radius: 10px; /* rounded corners */
+    padding-bottom: 50px; /* extra space at the bottom */
+    gap: 20px; /* space between elements horizontally */
+
+    /*style for input fields inside .box */
+    input {
+        width: 200px; /* fixed width for input */
+        height: 25px; /* fixed height for input */
+        font-size: 18px; /* slightly smaller font for input */
+        background-color: #bbb7b7; /* sets background for input fields */
     }
 
-button:hover{
-    background-color: rgb(95, 63, 63);
+    /* paragraph style inside .box */
+    p {
+        margin-bottom: 10px; /* space below paragraph */
+    }
 }
+
+/* section containing the buttons */
+#butn {
+    margin-top: 50px; /* space above the button area */
+    text-align: center; /* center align all content inside */
+    font-size: 20px; /* font size for button text */
+
+    /* dtyle for all buttons inside #butn */
+    button {
+        color: rgb(173, 161, 161); /* sets font color */
+        font-size: 20px; /* font size for the button text */
+        background-color: rgb(49, 46, 44); /* sets background color */
+        border-radius: 5px; /* rounded button corners */
+        border: 2px solid rgb(21, 20, 20); /* dark solid border */
+    }
+
+    /* hover effect when mouse is over button */
+    button:hover {
+        background-color: rgb(95, 63, 63); /* sets background on hover */
+    }
 }
+
+/* focus style for any button when selected or clicked via keyboard */
+button:focus {
+    outline: 2px solid #c6a97c; /* sets outline for focus */
+    outline-offset: 2px; /* gap between the outline and button edge */
+    box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.3); /* sets soft glow effect */
+}
+
