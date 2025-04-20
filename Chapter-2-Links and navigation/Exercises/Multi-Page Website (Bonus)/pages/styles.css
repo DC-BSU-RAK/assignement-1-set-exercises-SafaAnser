@@ -89,6 +89,7 @@ footer{
     background-color: #463118; /* sets the background color of the footer to a dark brown */
     color: #a19b93; /* sets the text color to light beige */
     font-size: x-small; /* makes the font size smaller for footer text */
+    margin-bottom: -15px;
 }
 
 /* the .button class styles the button element */
@@ -98,5 +99,5 @@ footer{
     border-radius: 70px; /* rounds the corners of the button */
     font-size: 15px; /* sets the font size of the button text */
     padding: 5px; /* adds padding inside the button */
-    margin:20px; /* adds a 20px margin around the button */
+    margin-left:5px; /* adds a 20px margin around the button */
 } 
